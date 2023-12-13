@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="rock-paper-scissors.png">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="gameName">
+            <p>Stone-Paper-Scissors</p>
+            <img src="rock-paper-scissors.png" alt="Game Icon">
+        </div>
+        <div class="game">
+            <div class="score">
+                <p id="scores"><span id="yourScore">0</span><span id="colon">:</span><span id="cpuScore">0</span></p>
+                <p id="yourScore-align">Your Score</p>
+                <p id="cpuScore-align">CPU Score</p>
+            </div>
+
+            <div class="icons">
+                <button class="btn" value="Stone">✊</button>
+
+                <button class="btn" value="Paper">🖐️</button>
+
+                <button class="btn" value="Scissors">✌️</button>
+
+                <p id="chooseStmt">Choose By Clicking On Above Icons</p>
+                <p id="rules">You Will Get 3 Trials. One who has higher score wins. To start a new game click below.</p>
+            </div>
+        </div>
+
+        <button id="newGame">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a7a8986169.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
